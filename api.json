@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/globster",
     "maintainers": [
       {
@@ -18,461 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "globster",
     "name": "Globster",
-    "aliases": [
-      {
-        "name": "Blob",
-        "meaning": "Informal term for unidentified organic masses"
-      },
-      {
-        "name": "Sea Monster Carcass",
-        "meaning": "Initial interpretation before scientific analysis"
-      }
-    ],
-    "category": "CRYPTID",
-    "subcategory": "Marine Mystery",
+    "aliases": [],
+    "category": "CRYPTID_(MARINE_MYSTERY)",
+    "subcategory": "Whale Blubber (primarily)",
     "tags": [
-      "marine",
-      "decomposed-remains",
-      "blob-like",
-      "whale-blubber",
-      "beach-strandings",
-      "explained-phenomenon"
+      "folklore",
+      "mythology"
     ],
-    "status": "explained",
+    "status": "documented",
     "description": {
-      "summary": "Unidentified organic masses that wash ashore, often initially thought to be sea monsters but almost always proven to be decomposed whale blubber or other marine mammal remains.",
+      "summary": "Globsters are large, fibrous, blob-like masses of organic material that occasionally wash up on beaches around the world.",
       "full": "Globsters are large, fibrous, blob-like masses of organic material that occasionally wash up on beaches around the world. Typically white or pale in color, lacking clear anatomical features, and often weighing several tons, these masses have historically sparked speculation about unknown sea creatures. However, modern scientific analysis using DNA testing, histology, and chemical analysis has consistently shown that globsters are decomposed remains of whales, primarily consisting of collagen fibers from blubber. The fibrous texture and blob-like appearance result from the decomposition process, which breaks down most tissues while preserving the dense collagen matrix."
     },
     "etymology": {
-      "origin": "The term 'globster' was coined by Ivan T. Sanderson in 1962 to describe unidentified organic masses washed ashore.",
-      "meaning": "A portmanteau describing a glob-like mystery",
-      "first_use": "1962"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID",
-      "type": "Marine Mystery",
-      "subtype": "Decomposed Remains",
-      "variant": "Explained Phenomenon"
+      "category": "CRYPTID_(MARINE_MYSTERY)",
+      "type": "Whale Blubber (primarily)",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "sea-monsters",
-        "name": "Sea Monsters",
-        "relationship": "misidentification",
-        "description": "Globsters are often initially misidentified as unknown sea creatures"
-      },
-      {
-        "id": "kraken",
-        "name": "Kraken",
-        "relationship": "associated",
-        "description": "Some globsters initially thought to be giant octopus remains"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "weight": {
-        "min": 500,
-        "max": 5000,
-        "unit": "kilograms",
-        "confidence": "high"
-      },
-      "coloration": [
-        "white",
-        "pale",
-        "gray",
-        "cream-colored"
-      ],
-      "features": [
-        {
-          "feature": "Fibrous texture",
-          "description": "Dense, stringy collagen fibers throughout mass",
-          "frequency": "always"
-        },
-        {
-          "feature": "Blob-like shape",
-          "description": "Amorphous, lacking clear anatomical structure",
-          "frequency": "always"
-        },
-        {
-          "feature": "No clear features",
-          "description": "Absence of identifiable body parts, eyes, bones",
-          "frequency": "common"
-        },
-        {
-          "feature": "Decomposed state",
-          "description": "Advanced decomposition, often waterlogged",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Large, amorphous masses of fibrous organic material. Decomposition removes most anatomical features, leaving primarily collagen matrix from blubber and connective tissue."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "composition": {
-      "primary_material": "Collagen fibers",
-      "source": "Whale blubber (primarily), occasionally basking shark remains",
-      "preservation": "Collagen-rich tissues resist decomposition longer than other organic matter"
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Found on beaches worldwide, wherever large marine mammals are present",
-      "continents": ["All continents with coastlines"],
-      "occurrence": "Sporadic, unpredictable strandings"
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "notable_locations": [
-      {
-        "name": "St. Augustine",
-        "location": {
-          "description": "St. Augustine, Florida",
-          "country": "United States",
-          "region": "Florida",
-          "coordinates": {
-            "latitude": 29.8987,
-            "longitude": -81.3126
-          }
-        },
-        "year": "1896",
-        "notes": "Famous St. Augustine Monster, initially thought to be giant octopus"
-      },
-      {
-        "name": "Chile",
-        "location": {
-          "description": "Los Muermos, Chile",
-          "country": "Chile",
-          "region": "Southern Chile",
-          "coordinates": {
-            "latitude": -41.3983,
-            "longitude": -73.4631
-          }
-        },
-        "year": "2003",
-        "notes": "Chilean Blob, 13-ton mass identified as sperm whale blubber"
-      },
-      {
-        "name": "Montauk",
-        "location": {
-          "description": "Montauk, New York",
-          "country": "United States",
-          "region": "New York",
-          "coordinates": {
-            "latitude": 41.0359,
-            "longitude": -71.9579
-          }
-        },
-        "year": "2008",
-        "notes": "Montauk Monster, later identified as decomposed raccoon"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
       }
-    ]
+    }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Historical accounts of sea monster remains washing ashore date back centuries. Before modern scientific analysis, such discoveries fueled maritime mythology.",
-      "earliest_accounts": "Reports of mysterious organic masses predate scientific terminology",
-      "folklore_connections": "Connected to sea monster legends, giant octopus myths, and maritime mysteries"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1896-11-30",
-        "event": "St. Augustine Monster discovered",
-        "significance": "Large fibrous mass found on Florida beach, thought to be giant octopus. Sparked decades of scientific debate.",
-        "source": "Contemporary newspaper reports"
-      },
-      {
-        "date": "1962",
-        "event": "Term 'globster' coined",
-        "significance": "Ivan T. Sanderson creates specific terminology for phenomenon",
-        "source": "Sanderson's writings"
-      },
-      {
-        "date": "1971",
-        "event": "Tasmania globster",
-        "significance": "Large mass found in Tasmania, extensive scientific examination",
-        "source": "Scientific reports"
-      },
-      {
-        "date": "1988",
-        "event": "Bermuda Blob",
-        "significance": "Mass found in Bermuda, initial speculation about unknown species",
-        "source": "News reports"
-      },
-      {
-        "date": "1995-2004",
-        "event": "DNA analysis revolution",
-        "significance": "Modern DNA testing definitively identifies globsters as whale remains",
-        "source": "Scientific papers"
-      },
-      {
-        "date": "2003-07-01",
-        "event": "Chilean Blob",
-        "significance": "13-ton mass, DNA analysis confirms sperm whale blubber",
-        "source": "Scientific analysis, media reports"
-      },
-      {
-        "date": "2008-07-23",
-        "event": "Montauk Monster",
-        "significance": "Media sensation, later identified as decomposed raccoon",
-        "source": "News reports, scientific analysis"
-      }
-    ],
-    "modern_era": "Modern scientific techniques including DNA analysis, histology, and chemical testing have essentially solved the globster mystery. Nearly all examined globsters have been identified as decomposed whale blubber or other known marine mammals. The phenomenon serves as an example of how decomposition can obscure the true identity of organic remains."
+    "timeline": []
   },
-
-  "cases": {
+  "sightings": {
     "statistics": {
-      "total_documented": 50,
-      "scientifically_analyzed": 20,
-      "identified_as_whale": 18,
-      "identified_as_other": 2,
-      "unidentified": 0
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "globster-case-st-augustine",
-        "name": "St. Augustine Monster",
-        "date": {
-          "value": "1896-11-30",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "St. Augustine Beach, Florida",
-          "country": "United States",
-          "region": "Florida",
-          "coordinates": {
-            "latitude": 29.8987,
-            "longitude": -81.3126,
-            "precision": "approximate"
-          }
-        },
-        "description": "A massive, pale, fibrous carcass measuring approximately 23 feet long and 18 feet wide washed ashore. Initially examined by Dr. DeWitt Webb, who believed it to be a giant octopus. The mass weighed an estimated 5-7 tons. Samples were preserved and later analyzed.",
-        "initial_theory": "Giant octopus (Octopus giganteus)",
-        "scientific_resolution": "DNA analysis in 1995 and 2004 identified tissue as whale blubber collagen",
-        "weight_estimated": "5000-7000 kg",
-        "evidence": [
-          "Preserved tissue samples",
-          "Photographs",
-          "Contemporary accounts",
-          "Modern DNA analysis"
-        ],
-        "resolution": "Whale blubber (species uncertain, possibly sperm whale)",
-        "featured": true
-      },
-      {
-        "id": "globster-case-chilean-blob",
-        "name": "Chilean Blob",
-        "date": {
-          "value": "2003-07-01",
-          "precision": "approximate"
-        },
-        "location": {
-          "description": "Los Muermos, Southern Chile",
-          "country": "Chile",
-          "region": "Los Lagos",
-          "coordinates": {
-            "latitude": -41.3983,
-            "longitude": -73.4631,
-            "precision": "approximate"
-          }
-        },
-        "description": "A 13-ton gray-white mass measuring 12 meters long washed ashore. The blob-like carcass had a fibrous texture and no discernible anatomical features. Initial speculation suggested unknown species or giant octopus.",
-        "initial_theory": "Unknown marine species or giant octopus",
-        "scientific_resolution": "DNA analysis identified as sperm whale (Physeter macrocephalus) blubber",
-        "weight_estimated": "13000 kg",
-        "evidence": [
-          "Tissue samples",
-          "Photographs",
-          "DNA analysis",
-          "Histological examination"
-        ],
-        "resolution": "Sperm whale blubber",
-        "featured": true
-      },
-      {
-        "id": "globster-case-montauk",
-        "name": "Montauk Monster",
-        "date": {
-          "value": "2008-07-23",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Montauk Beach, New York",
-          "country": "United States",
-          "region": "New York",
-          "coordinates": {
-            "latitude": 41.0359,
-            "longitude": -71.9579,
-            "precision": "exact"
-          }
-        },
-        "description": "A small, hairless, decomposed carcass photographed on beach. Bloated and lacking clear features, it sparked internet speculation about genetic experiments, sea monsters, and unknown species. The creature had a beak-like mouth and unusual appearance.",
-        "initial_theory": "Genetic experiment, unknown species, sea turtle",
-        "scientific_resolution": "Decomposed raccoon (hair lost during decomposition)",
-        "weight_estimated": "Unknown (small, likely under 10 kg)",
-        "evidence": [
-          "Photographs",
-          "Expert analysis of visible anatomy"
-        ],
-        "resolution": "Decomposed raccoon",
-        "featured": false
-      }
-    ]
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "type": "tissue samples",
-        "description": "Preserved specimens from multiple globsters analyzed using modern techniques",
-        "status": "conclusive",
-        "analysis": "DNA testing, histology, and chemical analysis consistently identify whale blubber collagen"
-      },
-      {
-        "type": "photographic documentation",
-        "description": "Extensive photographs of globsters showing characteristic fibrous texture and blob-like appearance",
-        "status": "documented",
-        "analysis": "Visual evidence consistent with decomposed collagen-rich tissue"
-      }
-    ],
-    "scientific": [
-      {
-        "type": "DNA analysis",
-        "description": "Modern genetic testing of preserved samples",
-        "findings": "Identifies species as known marine mammals, primarily whales",
-        "studies": "Multiple peer-reviewed studies 1995-2004"
-      },
-      {
-        "type": "Histological examination",
-        "description": "Microscopic analysis of tissue structure",
-        "findings": "Reveals collagen fiber patterns consistent with whale blubber",
-        "studies": "Published in cryptozoology and marine biology journals"
-      },
-      {
-        "type": "Chemical analysis",
-        "description": "Analysis of tissue composition",
-        "findings": "High collagen content, low protein variety consistent with blubber",
-        "studies": "Various scientific publications"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "historical": [
-      {
-        "name": "Giant Octopus",
-        "description": "Early theory that globsters represented unknown giant octopus species",
-        "proponents": ["Dr. DeWitt Webb (St. Augustine case)"],
-        "evidence_cited": ["Fibrous texture mistaken for octopus muscle"],
-        "status": "Disproven by DNA analysis"
-      },
-      {
-        "name": "Unknown Sea Monster",
-        "description": "Speculation that globsters were remains of undiscovered large marine creatures",
-        "proponents": ["Various cryptozoologists"],
-        "evidence_cited": ["Unusual appearance, large size"],
-        "status": "Disproven by scientific analysis"
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Decomposed Whale Blubber",
-        "description": "Globsters are decomposed whale remains, primarily blubber collagen that resists decay",
-        "proponents": ["Mainstream marine biology"],
-        "evidence_cited": ["DNA analysis", "Histological examination", "Chemical composition"],
-        "status": "Confirmed - accepted scientific explanation"
-      },
-      {
-        "name": "Basking Shark Remains",
-        "description": "Some smaller globsters may be decomposed basking shark carcasses",
-        "proponents": ["Marine biologists"],
-        "evidence_cited": ["Anatomical comparison", "Size range"],
-        "status": "Confirmed for some cases"
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
-  "explanation": {
-    "phenomenon_status": "EXPLAINED",
-    "scientific_consensus": "Globsters are decomposed remains of marine mammals, primarily whale blubber. The collagen-rich tissue of blubber resists decomposition longer than other tissues, creating the characteristic fibrous, blob-like appearance.",
-    "decomposition_process": [
-      "Whale dies and floats at sea",
-      "Soft tissues, organs, bones decompose or separate",
-      "Dense collagen matrix of blubber persists",
-      "Ocean currents and decomposition create amorphous blob shape",
-      "Collagen fibers become visible as other tissues deteriorate",
-      "Mass washes ashore lacking recognizable anatomical features"
-    ],
-    "why_mysterious": "Decomposition removes identifying features. Collagen's fibrous texture and resistance to decay creates unfamiliar appearance. Large size and unusual context (beach strandings) generate speculation."
-  },
-
   "cultural": {
-    "media_impact": {
-      "pattern": "Globsters typically generate immediate media sensation and speculation about sea monsters or unknown creatures",
-      "modern_era": "Internet and social media amplify speculation before scientific analysis completed",
-      "examples": ["Montauk Monster became viral internet phenomenon", "St. Augustine Monster debated for over a century"]
-    },
-    "cryptozoology": {
-      "significance": "Historical importance in cryptozoology before modern DNA analysis",
-      "lesson": "Demonstrates importance of scientific analysis versus speculation",
-      "resolution": "One of cryptozoology's solved mysteries"
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "influence": "Globsters appear in books, documentaries, and discussions of sea mysteries",
-      "tourism": "Some strandings become temporary tourist attractions",
-      "educational_value": "Used to teach about decomposition processes and scientific method"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "key_studies": [
-      {
-        "authors": ["Pierce, S.K.", "et al."],
-        "title": "Microscopic, Biochemical, and Molecular Characteristics of the Chilean Blob",
-        "year": "2004",
-        "finding": "Identified as sperm whale blubber through DNA analysis"
-      },
-      {
-        "authors": ["Wood, F.G."],
-        "title": "The St. Augustine Monster Reexamined",
-        "year": "1971",
-        "finding": "Suggested whale blubber based on tissue examination"
-      }
-    ],
-    "methodology": "Modern globster analysis combines DNA sequencing, histological examination, chemical composition analysis, and comparison with known marine mammal tissues"
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "pierce-2004",
-      "type": "journal article",
-      "title": "Microscopic, Biochemical, and Molecular Characteristics of the Chilean Blob",
-      "authors": ["Sidney K. Pierce", "et al."],
-      "publication": "Biological Bulletin",
-      "date": "2004",
-      "doi": "10.2307/1543131"
-    },
-    {
-      "id": "raynal-1994",
-      "type": "journal article",
-      "title": "The St. Augustine Monster: A Globster",
-      "authors": ["Michel Raynal"],
-      "publication": "Cryptozoology",
-      "date": "1994"
-    },
-    {
-      "id": "woodley-2008",
-      "type": "online",
-      "title": "Globsters and Blobs: Decomposed Marine Mammals",
-      "url": "https://www.tonmo.com/articles/globsters",
-      "accessed": "2026-01-14"
-    }
-  ]
+  "sources": []
 }
