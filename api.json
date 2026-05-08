@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/globster",
     "maintainers": [
       {
@@ -19,108 +19,282 @@
   "phenomenon": {
     "id": "globster",
     "name": "Globster",
-    "aliases": [],
-    "category": "CRYPTID_(MARINE_MYSTERY)",
-    "subcategory": "Whale Blubber (primarily)",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Blob", "language": "English" },
+      { "name": "Sea blob", "language": "English" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Marine carcass / unidentified shoreline mass",
+    "tags": [
+      "marine",
+      "carcass",
+      "decomposition",
+      "whale",
+      "cryptozoology",
+      "shoreline",
+      "globster"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "Globsters are large, fibrous, blob-like masses of organic material that occasionally wash up on beaches around the world.",
-      "full": "Globsters are large, fibrous, blob-like masses of organic material that occasionally wash up on beaches around the world. Typically white or pale in color, lacking clear anatomical features, and often weighing several tons, these masses have historically sparked speculation about unknown sea creatures. However, modern scientific analysis using DNA testing, histology, and chemical analysis has consistently shown that globsters are decomposed remains of whales, primarily consisting of collagen fibers from blubber. The fibrous texture and blob-like appearance result from the decomposition process, which breaks down most tissues while preserving the dense collagen matrix."
+      "summary": "An unidentified, often large, fibrous organic mass washed up on a shoreline. Once a staple of cryptozoological speculation, almost every well-studied globster has been identified by DNA or histology as the decomposed remains of a whale or other large vertebrate.",
+      "full": "A globster is an unidentified organic mass — usually large, pale or whitish, fibrous, and lacking obvious anatomy — that washes up on a beach or other shoreline. The term was coined by writer Ivan T. Sanderson in 1962 to describe a Tasmanian carcass discovered in 1960 that had 'no visible eyes, no defined head, and no apparent bone structure'. Globsters were widely cited in 20th-century cryptozoological literature as possible evidence of unknown sea creatures (including alleged 'sea monsters', surviving plesiosaurs, or giant octopuses). Since the late 1980s a series of histological and DNA studies — notably by Sidney K. Pierce and colleagues at the University of South Florida — has shown that almost every well-analyzed globster is the decomposed remains of a whale (or, in a few cases, a basking shark or other large vertebrate). The fibrous appearance is produced by the persistence of dense collagen fibres from blubber and connective tissue after softer tissues have decomposed. Notable cases include the St. Augustine Monster (Florida, 1896 — eventually identified as whale collagen), the Tasmanian Globster (1960), the Stronsay Beast (Orkney, 1808 — identified as a basking shark), the Bermuda Blobs (1988, 1997), the Newfoundland Blob (2001), and the Chilean Blob (2003). The category remains useful as a catch-all for shoreline carcasses pending identification."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by Ivan T. Sanderson in 1962 as a portmanteau / nonce term — apparently a blend of 'globular' (or 'glob') and 'monster'.",
+      "meaning": "Unidentified blob-like mass washed ashore",
+      "first_use": "1962 (Sanderson)"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID_(MARINE_MYSTERY)",
-      "type": "Whale Blubber (primarily)",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Marine carcass anomaly",
+      "subtype": "Decomposed cetacean remains (in identified cases)",
+      "variant": "Global shoreline phenomenon"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kraken", "name": "Kraken", "relationship": "related", "description": "Older sea-monster tradition sometimes invoked to explain globsters" },
+      { "id": "lusca", "name": "Lusca", "relationship": "related", "description": "Caribbean sea-monster tradition sometimes linked to globsters" },
+      { "id": "loch-ness-monster", "name": "Loch Ness Monster", "relationship": "related", "description": "Famous lake/sea cryptid; contrast case for marine cryptid investigation" },
+      { "id": "trunko", "name": "Trunko", "relationship": "subset", "description": "Famous 1924 Margate (South Africa) globster reportedly fighting whales" },
+      { "id": "montauk-monster", "name": "Montauk Monster (2008)", "relationship": "similar", "description": "Decomposed shoreline carcass widely covered in 2008; identified as a raccoon" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "weight": { "min": 100, "max": 13000, "unit": "kilograms", "confidence": "low" },
+      "coloration": ["white", "off-white", "pale grey", "yellowish"],
+      "features": [
+        { "feature": "Fibrous tissue", "description": "Dense, ropelike fibres of collagen — the dominant structural feature in identified cases", "frequency": "always" },
+        { "feature": "Lack of bone or articulated skeleton", "description": "Skeleton typically absent or unrecognizable; produces the characteristic 'shapeless' appearance", "frequency": "always" },
+        { "feature": "No visible head or eyes", "description": "Faces and eyes have decomposed beyond recognition", "frequency": "always" },
+        { "feature": "Foul odor", "description": "Strong smell of decomposition; commonly reported by investigators on site", "frequency": "common" },
+        { "feature": "Trailing 'tentacles' or strands", "description": "Decayed connective tissue can hang in long strands, giving an 'octopus' or 'tentacled' appearance and fueling cryptid speculation", "frequency": "occasional" }
+      ],
+      "morphology": "Variable, but typically a roughly oval to amorphous mass several metres across and weighing hundreds of kilograms to several tonnes, dominated by white or pale collagen fibres. In identified cases, the underlying tissue is whale (or other cetacean) blubber and skin."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "social_structure": "unknown",
+      "habitat_preference": ["coastal beaches and shorelines", "estuaries"],
+      "patterns": [
+        "Carcasses appear after storms or strong currents",
+        "Often partially buried or weathered before discovery",
+        "Tend to be reported in regions with frequent whale strandings"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Globsters have been reported on coastlines globally — Atlantic, Pacific, Indian Oceans, and adjacent seas. The phenomenon is not regional in any meaningful sense; it tracks the geography of large cetacean populations and shipping/observer density.",
+      "continents": ["Africa", "Antarctica", "Asia", "Europe", "North America", "Oceania", "South America"],
+      "countries": ["United States", "Chile", "United Kingdom", "Australia", "New Zealand", "Bermuda (UK overseas territory)", "Canada"],
+      "regions": ["North Atlantic", "South Atlantic", "Pacific", "Tasman Sea", "Caribbean", "Bermuda"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1808-09-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Stronsay Beast (Orkney, 1808) — first famous documented case, eventually identified as a basking shark"
+      },
+      "peak_activity_periods": [
+        { "period": "1960–1970", "description": "Sanderson's coining of 'globster' (1962); cryptozoological heyday" },
+        { "period": "1990–2010", "description": "DNA/histology era — most globsters identified as whale remains by Pierce et al. and similar groups" }
+      ],
+      "seasonal_patterns": "Strandings often follow storms and seasonal currents; no globster-specific seasonality."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The phenomenon belongs to the long history of sea-monster reports and the cryptozoological tradition of the 20th century, before the routine availability of histology and DNA analysis on stranded carcasses.",
+      "earliest_accounts": "The Stronsay Beast (Orkney, 1808) is often treated as the first 'classic' globster: a 55-foot decomposed carcass briefly described as a sea serpent before being identified as a basking shark.",
+      "folklore_connections": "Cited in cryptozoological literature alongside reports of sea serpents, the Kraken, and giant octopuses."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1808-09-25", "event": "Stronsay Beast washes up on Stronsay, Orkney; initially described as a sea serpent, later identified as a basking shark", "significance": "Earliest classic globster", "source": "Edinburgh Royal Society reports (1808–1812); Wikipedia, Stronsay Beast" },
+      { "date": "1896-11-30", "event": "St. Augustine Monster carcass discovered on Anastasia Island, Florida", "significance": "Long-running cryptozoological cause célèbre, attributed by Addison Verrill (1897) to a giant octopus, finally identified as whale collagen by Pierce et al. (1995)", "source": "Pierce, S. K. et al. (1995), Biological Bulletin" },
+      { "date": "1924-11-01", "event": "Trunko reported at Margate, South Africa, allegedly fighting two whales", "significance": "Often-cited 'tentacled' globster; later analysis suggests decomposed whale", "source": "Daily Mail (London), 27 December 1924; Wikipedia, Trunko" },
+      { "date": "1960-08-01", "event": "Tasmanian Globster found on Western Tasmanian beach; described by Ivan T. Sanderson and named in 1962", "significance": "Coining of 'globster'", "source": "Sanderson, I. T. (1962); CSIRO investigation" },
+      { "date": "1962-01-01", "event": "Ivan T. Sanderson coins the term 'globster' to describe the 1960 Tasmanian carcass", "significance": "Establishes the category in popular cryptozoology", "source": "Sanderson, I. T. (1962)" },
+      { "date": "1988-05-01", "event": "First Bermuda Blob found", "significance": "Investigated and identified as decomposed whale by Pierce et al.", "source": "Pierce, S. K. et al. (1995/2004)" },
+      { "date": "1995-01-01", "event": "Sidney K. Pierce et al. publish histological/biochemical analysis of the St. Augustine Monster identifying it as whale collagen", "significance": "Landmark study debunking giant-octopus hypothesis", "source": "Pierce, S. K. et al. (1995), Biological Bulletin 188:219" },
+      { "date": "2003-07-01", "event": "Chilean Blob found at Los Muermos, Chile", "significance": "Major early-21st-century globster; identified by DNA analysis as sperm whale tissue", "source": "Pinto-Rodríguez et al. (2003); Wikipedia, Chilean Blob" },
+      { "date": "2004-07-01", "event": "Pierce et al. publish a sweeping histology/molecular survey of multiple globsters in The Biological Bulletin, all identified as whale", "significance": "Generalizes the whale-collagen explanation across cases", "source": "Pierce, S. K. et al. (2004), Biological Bulletin 206:125" }
+    ],
+    "modern_era": "Since the mid-1990s the cryptozoological globster category has effectively collapsed: every well-studied case has resolved to a known vertebrate (most often a whale). The term remains useful for shoreline reporting and as a museum and history-of-science topic."
   },
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 30,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 5,
+      "debunked": 25,
+      "date_range": { "earliest": "1808-09-25", "latest": "2026-05-07" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "globster-sighting-1896-st-augustine",
+        "name": "St. Augustine Monster",
+        "date": { "value": "1896-11-30", "precision": "exact" },
+        "location": {
+          "description": "Anastasia Island beach, near St. Augustine, Florida",
+          "country": "United States",
+          "region": "Florida",
+          "locality": "St. Johns County",
+          "coordinates": { "latitude": 29.8, "longitude": -81.27, "precision": "approximate" }
+        },
+        "witnesses": { "count": 2, "types": ["Beachgoers (DeWitt Webb and others)"], "credibility_factors": ["Local naturalist DeWitt Webb collected samples", "Specimens preserved at Smithsonian"] },
+        "description": "A massive (~5 tonne) pale, fibrous mass washed up on Anastasia Island. Yale zoologist Addison Emery Verrill initially proposed it was an enormous octopus, but later DNA and histology by Sidney K. Pierce and colleagues (1995, 2004) identified the tissue as whale collagen.",
+        "conditions": { "weather": "Late autumn coastal storm context", "visibility": "Daylight inspection", "time_of_day": "Daylight", "duration": "Multi-day investigation" },
+        "evidence": ["Tissue samples preserved at the Smithsonian Institution", "Photographs"],
+        "credibility": { "rating": "high", "factors": ["Physical samples preserved", "Published peer-reviewed analysis"], "notes": "Originally interpreted as a giant octopus; conclusively identified as whale by Pierce et al. (1995)." },
+        "sources": ["Verrill, A. E. (1897), American Journal of Science", "Pierce, S. K. et al. (1995), Biological Bulletin"],
+        "featured": true
+      },
+      {
+        "id": "globster-sighting-1960-tasmanian",
+        "name": "Tasmanian Globster",
+        "date": { "value": "1960-08-01", "precision": "approximate" },
+        "location": {
+          "description": "Western Tasmanian beach, near the Interview River mouth",
+          "country": "Australia",
+          "region": "Tasmania",
+          "coordinates": { "latitude": -41.2, "longitude": 144.7, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Cattle rancher (Ben Fenton)"], "credibility_factors": ["CSIRO investigation team dispatched"] },
+        "description": "A large white fibrous mass — about 6 m long, 3 m wide, ~5–10 tonnes — discovered on a remote beach. The Australian CSIRO investigated in 1962 and concluded it was decomposed whale or marine vertebrate tissue. Ivan T. Sanderson popularized the find and coined the term 'globster' in 1962.",
+        "conditions": { "weather": "Southern winter coast", "visibility": "Daylight inspection", "time_of_day": "Daylight", "duration": "Multi-day investigation" },
+        "evidence": ["Tissue samples", "Photographs", "CSIRO investigation report"],
+        "credibility": { "rating": "high", "factors": ["Government investigation"], "notes": "Origin of the term 'globster'." },
+        "sources": ["Sanderson, I. T. (1962)", "CSIRO investigation report (1962)"],
+        "featured": true
+      },
+      {
+        "id": "globster-sighting-2003-chilean-blob",
+        "name": "Chilean Blob",
+        "date": { "value": "2003-07-01", "precision": "approximate" },
+        "location": {
+          "description": "Los Muermos beach, southern Chile",
+          "country": "Chile",
+          "region": "Los Lagos Region",
+          "coordinates": { "latitude": -41.4, "longitude": -73.5, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Local residents and Chilean Center for Cetacean Conservation researchers"], "credibility_factors": ["Government researchers on site", "DNA analysis performed"] },
+        "description": "A 12-tonne, 12 m gelatinous mass washed up on Los Muermos beach. Chilean Center for Cetacean Conservation researchers initially could not identify it; DNA analysis subsequently identified the tissue as sperm whale.",
+        "conditions": { "weather": "Southern Pacific winter", "visibility": "Daylight inspection", "time_of_day": "Daylight", "duration": "Multi-week investigation" },
+        "evidence": ["DNA samples", "Photographs", "Laboratory analyses"],
+        "credibility": { "rating": "high", "factors": ["DNA-confirmed identification"], "notes": "One of the largest globsters on record, definitively identified as sperm whale." },
+        "sources": ["Pinto-Rodríguez et al. (2003)", "BBC News (2003)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "globster-evidence-st-augustine-tissue",
+        "type": "tissue sample",
+        "name": "St. Augustine Monster tissue at the Smithsonian",
+        "date": "1896",
+        "description": "Preserved tissue samples from the 1896 St. Augustine carcass, retained at the Smithsonian Institution and re-analyzed in the 1990s.",
+        "status": "verified",
+        "analysis": "Histology and biochemistry (Pierce et al. 1995) showed the samples to be whale collagen, refuting Verrill's giant-octopus hypothesis.",
+        "source": "Pierce, S. K. et al. (1995), Biological Bulletin 188:219"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "globster-evidence-pierce-2004",
+        "type": "paper",
+        "name": "Pierce et al. (2004) — Globster histology survey",
+        "date": "2004-07",
+        "description": "Histological and biochemical analyses of multiple globsters (including the Bermuda Blobs, the Tasmanian carcass, and the Chilean Blob), all identified as whale collagen.",
+        "status": "verified",
+        "analysis": "Generalizes the whale-collagen explanation across the historical globster record.",
+        "source": "Pierce, S. K. et al. (2004), Biological Bulletin 206:125"
+      }
+    ]
   },
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Decomposed cetacean (whale) blubber",
+        "description": "Mainstream identification: globsters are the persisting collagen matrix of whale (especially sperm whale) blubber and connective tissue, after softer tissues have decomposed at sea.",
+        "proponents": ["Sidney K. Pierce", "Eugenie Clark", "CSIRO marine biologists"],
+        "evidence_cited": ["Pierce et al. (1995, 2004)", "DNA analyses of the Newfoundland Blob (2001) and Chilean Blob (2003)"]
+      },
+      {
+        "name": "Basking shark and other large fish carcasses",
+        "description": "Some classic 'sea serpent' carcasses (notably the Stronsay Beast) are identified as decomposed basking sharks, whose vertebrae and supporting tissue can give a serpent-like silhouette in advanced decay.",
+        "proponents": ["Marine biologists, 19th–20th century"],
+        "evidence_cited": ["Stronsay Beast (1808) reanalysis", "Zuiyo-maru carcass (1977) — decomposed basking shark"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "No remaining cryptid hypothesis necessary",
+        "description": "Given that every well-studied globster has resolved to known vertebrates, and that the fibrous appearance is fully explained by collagen persistence, mainstream science treats the cryptid 'sea-monster' framing as obsolete.",
+        "proponents": ["Daniel Loxton", "Donald Prothero", "Sidney K. Pierce"],
+        "evidence_cited": ["Pierce et al. (1995, 2004)", "Loxton & Prothero, Abominable Science! (2013)"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "20th-century cryptozoology, especially Sanderson's school",
+        "Long history of sea-serpent / 'monster' shoreline reports"
+      ],
+      "stories": [
+        "The Stronsay Beast (1808)",
+        "The St. Augustine Monster (1896)",
+        "Trunko at Margate (1924)",
+        "The Tasmanian Globster (1960)",
+        "The Chilean Blob (2003)"
+      ],
+      "beliefs": "Local communities encountering large unidentified shoreline carcasses have historically reached for sea-monster framings; as DNA analysis has become routine, these have largely been replaced by identification as whales or basking sharks."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Ivan T. Sanderson — Things (1967), and Pursuit (journal)",
+        "Daniel Loxton & Donald R. Prothero — Abominable Science! (Columbia University Press, 2013)"
+      ],
+      "film_tv": [
+        "Various Discovery Channel and National Geographic documentaries on 'sea monsters' and globsters"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Museum exhibits on shoreline carcasses (e.g. at the Smithsonian)"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Sidney K. Pierce", "affiliation": "University of South Florida (biology)", "contribution": "Lead author on the 1995 and 2004 histology/biochemistry studies that identified multiple globsters as decomposed whale tissue", "period": "1990s–2010s" },
+      { "name": "Eugenie Clark", "affiliation": "University of Maryland (marine biology)", "contribution": "Co-author on globster identification work; long-time marine biology research leader", "period": "1980s–2015" },
+      { "name": "Ivan T. Sanderson", "affiliation": "Society for the Investigation of the Unexplained (founder)", "contribution": "Coined the term 'globster' (1962); 20th-century cryptozoological framing", "period": "1940s–1973" },
+      { "name": "Addison Emery Verrill", "affiliation": "Yale University (zoology)", "contribution": "Initial 1897 giant-octopus interpretation of the St. Augustine carcass (later refuted)", "period": "1890s" }
+    ],
+    "organizations": [
+      { "name": "Smithsonian Institution", "url": "https://www.si.edu/", "focus": "Custodian of the St. Augustine Monster tissue samples" },
+      { "name": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)", "url": "https://www.csiro.au/", "focus": "Investigated the Tasmanian Globster (1962)" }
+    ],
+    "ongoing_studies": "Routine DNA identification of stranded carcasses is now standard practice in marine biology programmes; the cryptid 'globster' framing is largely a historical category."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-globster", "type": "website", "title": "Globster", "url": "https://en.wikipedia.org/wiki/Globster", "accessed": "2026-05-07" },
+    { "id": "pierce-1995", "type": "paper", "title": "Microscopic, Biochemical, and Molecular Characteristics of the Chilean Blob and a Comparison with the Remains of Other Sea Monsters: Nothing but Whales", "authors": ["Sidney K. Pierce", "Steven E. Massey", "Nicholas E. Curtis", "Gerald N. Smith", "Carlos Olavarria", "Timothy K. Maugel"], "publication": "Biological Bulletin", "date": "2004", "doi": "10.2307/1543634" },
+    { "id": "pierce-1995-st-augustine", "type": "paper", "title": "On the Giant Octopus (Octopus giganteus) and the Bermuda Blob: Homage to A. E. Verrill", "authors": ["Sidney K. Pierce", "Gerald N. Smith", "Timothy K. Maugel", "Eugenie Clark"], "publication": "Biological Bulletin", "date": "1995" },
+    { "id": "loxton-prothero-2013", "type": "book", "title": "Abominable Science! Origins of the Yeti, Nessie, and Other Famous Cryptids", "authors": ["Daniel Loxton", "Donald R. Prothero"], "publication": "Columbia University Press", "date": "2013", "isbn": "978-0231153201" },
+    { "id": "sanderson-1962", "type": "article", "title": "Things (column / book)", "authors": ["Ivan T. Sanderson"], "publication": "Pyramid Books / Pursuit journal", "date": "1962" }
+  ]
 }
